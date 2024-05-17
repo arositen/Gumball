@@ -23,7 +23,7 @@ function ArtistProductCard({ product }: Props) {
                 <div className='-skew-x-6 bg-[#e9c46a] h-full w-1/4 -mx-1 p-0'></div>
             </div>
 
-            <Link to={`/details/${product.productID}`} state={{ from: product, id: product.productID }}>
+            <Link to={`/Gumball/details/${product.productID}`} state={{ from: product, id: product.productID }}>
                 <div className='flex justify-center items-center h-full'>
                     <img className='h-full object-cover object-center rounded-xl' src={product.image} alt="" />
                 </div>
@@ -56,7 +56,7 @@ function ArtistProductCard({ product }: Props) {
                     )}
                 </div>
                 <div className='flex justify-end'>
-                    <Link to={`/details/${product.productID}`} state={{ from: product, id: product.productID }}
+                    <Link to={`/Gumball/details/${product.productID}`} state={{ from: product, id: product.productID }}
                         className={greenButtonStyle}>
                         Buy Now
                     </Link>

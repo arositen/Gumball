@@ -56,7 +56,7 @@ function CartSlideOver() {
                                                                     <div>
                                                                         <div className="flex justify-between text-base font-medium text-gray-900">
                                                                             <h3>
-                                                                                <Link to={`/details/${item.parentID}`} state={{ from: item, id: item.parentID }} onClick={closeCart}>{item.name}</Link>
+                                                                                <Link to={`/Gumball/details/${item.parentID}`} state={{ from: item, id: item.parentID }} onClick={closeCart}>{item.name}</Link>
                                                                             </h3>
                                                                             <p className="ml-4">{formatCurrency(item.price * item.quantity)}</p>
                                                                         </div>
@@ -84,7 +84,7 @@ function CartSlideOver() {
                                             </div>
                                             <p className="mt-0.5 text-sm text-gray-500">Shipping and taxes calculated at checkout.</p>
                                             <div className="mt-6">
-                                                <Link to={'checkout/'}>
+                                                <Link to={'/Gumball/checkout/'}>
                                                     <button className={`flex ${isEmpty ? 'opacity-50' : 'opacity-100 hover:bg-indigo-700'} w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm`}
                                                         disabled={isEmpty}
                                                         onClick={closeCart}>

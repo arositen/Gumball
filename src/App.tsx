@@ -33,13 +33,13 @@ function App() {
       <ShoppingCartProvider>
         <Navbar isTopOfPage={isTopOfPage} />
         <Routes>
-          <Route path="/" element={<Splash />} />
-          <Route path="/mens" element={<Mens />} />
-          <Route path="/womens" element={<Womens />} />
-          <Route path="/upcoming-artist" element={<UpcomingArtist />} />
-          <Route path="/details" element={<Details />} />
-          <Route path="/details/:id" element={<Details />} />
-          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/Gumball/" element={<Splash />} />
+          <Route path="/Gumball/mens" element={<Mens />} />
+          <Route path="/Gumball/womens" element={<Womens />} />
+          <Route path="/Gumball/upcoming-artist" element={<UpcomingArtist />} />
+          <Route path="/Gumball/details" element={<Details />} />
+          <Route path="/Gumball/details/:id" element={<Details />} />
+          <Route path="/Gumball/checkout" element={<Checkout />} />
         </Routes>
         <Footer />
       </ShoppingCartProvider>
