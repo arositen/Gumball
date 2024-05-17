@@ -1,0 +1,551 @@
+[
+    {
+        "gender": "mens",
+        "name": "Classic",
+        "image": "/imgs/ShirtDesign01.jfif",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
+        "price": 21.99,
+        "category": "Long Sleeve",
+        "rating": 4,
+        "productID": "arstq342",
+        "sizeOfferings": [
+            {
+                "letterSize": "XS",
+                "sizeID": "arstq342-XS"
+            },
+            {
+                "letterSize": "S",
+                "sizeID": "arstq342-S"
+            },
+            {
+                "letterSize": "M",
+                "sizeID": "arstq342-M"
+            },
+            {
+                "letterSize": "L",
+                "sizeID": "arstq342-L"
+            },
+            {
+                "letterSize": "XL",
+                "sizeID": "arstq342-XL"
+            },
+            {
+                "letterSize": "XXL",
+                "sizeID": "arstq342-XXL"
+            }
+        ]
+    },
+    {
+        "gender": "mens",
+        "name": "Bubble",
+        "image": "/imgs/ShirtDesign02.jfif",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
+        "price": 23.99,
+        "category": "Button Up",
+        "rating": 5,
+        "productID": "ienul287",
+        "sizeOfferings": [
+            {
+                "letterSize": "XS",
+                "sizeID": "ienul287-XS"
+            },
+            {
+                "letterSize": "S",
+                "sizeID": "ienul287-S"
+            },
+            {
+                "letterSize": "M",
+                "sizeID": "ienul287-M"
+            },
+            {
+                "letterSize": "L",
+                "sizeID": "ienul287-L"
+            },
+            {
+                "letterSize": "XL",
+                "sizeID": "ienul287-XL"
+            },
+            {
+                "letterSize": "XXL",
+                "sizeID": "ienul287-XXL"
+            }
+        ]
+    },
+    {
+        "gender": "mens",
+        "name": "Rainbow",
+        "image": "/imgs/ShirtDesign03.jfif",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
+        "price": 20.99,
+        "category": "1/4 Button",
+        "rating": 3,
+        "productID": "hjuky783",
+        "sizeOfferings": [
+            {
+                "letterSize": "XS",
+                "sizeID": "hjuky783-XS"
+            },
+            {
+                "letterSize": "S",
+                "sizeID": "hjuky783-S"
+            },
+            {
+                "letterSize": "M",
+                "sizeID": "hjuky783-M"
+            },
+            {
+                "letterSize": "L",
+                "sizeID": "hjuky783-L"
+            },
+            {
+                "letterSize": "XL",
+                "sizeID": "hjuky783-XL"
+            },
+            {
+                "letterSize": "XXL",
+                "sizeID": "hjuky783-XXL"
+            }
+        ]
+    },
+    {
+        "gender": "mens",
+        "name": "Soda",
+        "image": "/imgs/ShirtDesign04.jfif",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
+        "price": 30.99,
+        "category": "Button Up",
+        "rating": 4,
+        "productID": "oienm876",
+        "sizeOfferings": [
+            {
+                "letterSize": "XS",
+                "sizeID": "oienm876-XS"
+            },
+            {
+                "letterSize": "S",
+                "sizeID": "oienm876-S"
+            },
+            {
+                "letterSize": "M",
+                "sizeID": "oienm876-M"
+            },
+            {
+                "letterSize": "L",
+                "sizeID": "oienm876-L"
+            },
+            {
+                "letterSize": "XL",
+                "sizeID": "oienm876-XL"
+            },
+            {
+                "letterSize": "XXL",
+                "sizeID": "oienm876-XXL"
+            }
+        ]
+    },
+    {
+        "gender": "mens",
+        "name": "Band",
+        "image": "/imgs/ShirtDesign05.jfif",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
+        "price": 19.99,
+        "category": "T-Shirt",
+        "rating": 4,
+        "productID": "qwfpb345",
+        "sizeOfferings": [
+            {
+                "letterSize": "XS",
+                "sizeID": "qwfpb345-XS"
+            },
+            {
+                "letterSize": "S",
+                "sizeID": "qwfpb345-S"
+            },
+            {
+                "letterSize": "M",
+                "sizeID": "qwfpb345-M"
+            },
+            {
+                "letterSize": "L",
+                "sizeID": "qwfpb345-L"
+            },
+            {
+                "letterSize": "XL",
+                "sizeID": "qwfpb345-XL"
+            },
+            {
+                "letterSize": "XXL",
+                "sizeID": "qwfpb345-XXL"
+            }
+        ]
+    },
+    {
+        "gender": "mens",
+        "name": "Puzzle",
+        "image": "/imgs/ShirtDesign06.jfif",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
+        "price": 40.99,
+        "category": "T-Shirt",
+        "rating": 5,
+        "productID": "zxcda987",
+        "sizeOfferings": [
+            {
+                "letterSize": "XS",
+                "sizeID": "zxcda987-XS"
+            },
+            {
+                "letterSize": "S",
+                "sizeID": "zxcda987-S"
+            },
+            {
+                "letterSize": "M",
+                "sizeID": "zxcda987-M"
+            },
+            {
+                "letterSize": "L",
+                "sizeID": "zxcda987-L"
+            },
+            {
+                "letterSize": "XL",
+                "sizeID": "zxcda987-XL"
+            },
+            {
+                "letterSize": "XXL",
+                "sizeID": "zxcda987-XXL"
+            }
+        ]
+    },
+    {
+        "gender": "womens",
+        "name": "Classic",
+        "image": "/imgs/WomensShirtDesign02.jfif",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
+        "price": 21.99,
+        "category": "T-Shirt",
+        "rating": 5,
+        "productID": "xcide987",
+        "sizeOfferings": [
+            {
+                "letterSize": "XS",
+                "sizeID": "xcide987-XS"
+            },
+            {
+                "letterSize": "S",
+                "sizeID": "xcide987-S"
+            },
+            {
+                "letterSize": "M",
+                "sizeID": "xcide987-M"
+            },
+            {
+                "letterSize": "L",
+                "sizeID": "xcide987-L"
+            },
+            {
+                "letterSize": "XL",
+                "sizeID": "xcide987-XL"
+            },
+            {
+                "letterSize": "XXL",
+                "sizeID": "xcide987-XXL"
+            }
+        ]
+    },
+    {
+        "gender": "womens",
+        "name": "Gradient",
+        "image": "/imgs/WomensShirtDesign01.jfif",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
+        "price": 30.99,
+        "category": "Button Up",
+        "rating": 4,
+        "productID": "wfpie234",
+        "sizeOfferings": [
+            {
+                "letterSize": "XS",
+                "sizeID": "wfpie234-XS"
+            },
+            {
+                "letterSize": "S",
+                "sizeID": "wfpie234-S"
+            },
+            {
+                "letterSize": "M",
+                "sizeID": "wfpie234-M"
+            },
+            {
+                "letterSize": "L",
+                "sizeID": "wfpie234-L"
+            },
+            {
+                "letterSize": "XL",
+                "sizeID": "wfpie234-XL"
+            },
+            {
+                "letterSize": "XXL",
+                "sizeID": "wfpie234-XXL"
+            }
+        ]
+    },
+    {
+        "gender": "womens",
+        "name": "Space",
+        "image": "/imgs/WomensShirtDesign03.jfif",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
+        "price": 25.99,
+        "category": "T-Shirt",
+        "rating": 5,
+        "productID": "zrsuh072",
+        "sizeOfferings": [
+            {
+                "letterSize": "XS",
+                "sizeID": "zrsuh072-XS"
+            },
+            {
+                "letterSize": "S",
+                "sizeID": "zrsuh072-S"
+            },
+            {
+                "letterSize": "M",
+                "sizeID": "zrsuh072-M"
+            },
+            {
+                "letterSize": "L",
+                "sizeID": "zrsuh072-L"
+            },
+            {
+                "letterSize": "XL",
+                "sizeID": "zrsuh072-XL"
+            },
+            {
+                "letterSize": "XXL",
+                "sizeID": "zrsuh072-XXL"
+            }
+        ]
+    },
+    {
+        "gender": "womens",
+        "name": "Splatter",
+        "image": "/imgs/WomensShirtDesign04.jfif",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
+        "price": 25.99,
+        "category": "T-Shirt",
+        "rating": 4,
+        "productID": "qfhis142",
+        "sizeOfferings": [
+            {
+                "letterSize": "XS",
+                "sizeID": "qfhis142-XS"
+            },
+            {
+                "letterSize": "S",
+                "sizeID": "qfhis142-S"
+            },
+            {
+                "letterSize": "M",
+                "sizeID": "qfhis142-M"
+            },
+            {
+                "letterSize": "L",
+                "sizeID": "qfhis142-L"
+            },
+            {
+                "letterSize": "XL",
+                "sizeID": "qfhis142-XL"
+            },
+            {
+                "letterSize": "XXL",
+                "sizeID": "qfhis142-XXL"
+            }
+        ]
+    },
+    {
+        "gender": "womens",
+        "name": "Material",
+        "image": "/imgs/WomensShirtDesign05.jfif",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
+        "price": 44.99,
+        "category": "Cardigan",
+        "rating": 5,
+        "productID": "yhxse637",
+        "sizeOfferings": [
+            {
+                "letterSize": "XS",
+                "sizeID": "yhxse637-XS"
+            },
+            {
+                "letterSize": "S",
+                "sizeID": "yhxse637-S"
+            },
+            {
+                "letterSize": "M",
+                "sizeID": "yhxse637-M"
+            },
+            {
+                "letterSize": "L",
+                "sizeID": "yhxse637-L"
+            },
+            {
+                "letterSize": "XL",
+                "sizeID": "yhxse637-XL"
+            },
+            {
+                "letterSize": "XXL",
+                "sizeID": "yhxse637-XXL"
+            }
+        ]
+    },
+    {
+        "gender": "womens",
+        "name": "Dot",
+        "image": "/imgs/WomensShirtDesign06.jfif",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
+        "price": 35.99,
+        "category": "Button Up",
+        "rating": 3,
+        "productID": "ilwts891",
+        "sizeOfferings": [
+            {
+                "letterSize": "XS",
+                "sizeID": "ilwts891-XS"
+            },
+            {
+                "letterSize": "S",
+                "sizeID": "ilwts891-S"
+            },
+            {
+                "letterSize": "M",
+                "sizeID": "ilwts891-M"
+            },
+            {
+                "letterSize": "L",
+                "sizeID": "ilwts891-L"
+            },
+            {
+                "letterSize": "XL",
+                "sizeID": "ilwts891-XL"
+            },
+            {
+                "letterSize": "XXL",
+                "sizeID": "ilwts891-XXL"
+            }
+        ]
+    },
+    {
+        "gender": "special",
+        "name": "Starry Night",
+        "image": "/imgs/SpecialShirtVanGogh.jfif",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
+        "price": 21.99,
+        "category": "Long Sleeve",
+        "rating": 5,
+        "productID": "starry2398",
+        "sizeOfferings": [
+            {
+                "letterSize": "XS",
+                "sizeID": "starry2398-XS"
+            },
+            {
+                "letterSize": "S",
+                "sizeID": "starry2398-S"
+            },
+            {
+                "letterSize": "M",
+                "sizeID": "starry2398-M"
+            },
+            {
+                "letterSize": "L",
+                "sizeID": "starry2398-L"
+            },
+            {
+                "letterSize": "XL",
+                "sizeID": "starry2398-XL"
+            },
+            {
+                "letterSize": "XXL",
+                "sizeID": "starry2398-XXL"
+            }
+        ],
+        "artistName": "Vincent Van Gogh",
+        "artistPortrait": "/imgs/VangoghPortrait.jfif",
+        "artistBio": "Vincent Van Gogh, a rising star in the art world, is a Dutch painter known for his emotive brushwork and vibrant colors. With a talent for capturing the essence of his subjects, his work pulsates with raw emotion and energy. Van Gogh's bold style and unwavering passion promise an exciting journey ahead in the world of art."
+    },
+    {
+        "gender": "special",
+        "name": "Fracture",
+        "image": "/imgs/SpecialShirtPicasso03.jfif",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
+        "price": 23.99,
+        "category": "Long Sleeve",
+        "rating": 5,
+        "productID": "fracture2982",
+        "sizeOfferings": [
+            {
+                "letterSize": "XS",
+                "sizeID": "fracture2982-XS"
+            },
+            {
+                "letterSize": "S",
+                "sizeID": "fracture2982-S"
+            },
+            {
+                "letterSize": "M",
+                "sizeID": "fracture2982-M"
+            },
+            {
+                "letterSize": "L",
+                "sizeID": "fracture2982-L"
+            },
+            {
+                "letterSize": "XL",
+                "sizeID": "fracture2982-XL"
+            },
+            {
+                "letterSize": "XXL",
+                "sizeID": "fracture2982-XXL"
+            }
+        ],
+        "artistName": "Pablo Picasso",
+        "artistPortrait": "/imgs/picassoportrait.jfif",
+        "artistBio": "Pablo Picasso, a rising force in the art scene, revolutionizes the canvas with his avant-garde approach and unparalleled creativity. The Spanish maestro's cubist vision deconstructs reality, reshaping perceptions and challenging artistic conventions. With each stroke, Picasso's bold experimentation pushes the boundaries of expression, marking him as a trailblazer in the art world."
+    },
+    {
+        "gender": "special",
+        "name": "Self Portrait",
+        "image": "/imgs/SpecialShirtDali.jfif",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
+        "price": 25.99,
+        "category": "Long Sleeve",
+        "rating": 5,
+        "productID": "selfport2082",
+        "sizeOfferings": [
+            {
+                "letterSize": "XS",
+                "sizeID": "selfport2082-XS"
+            },
+            {
+                "letterSize": "S",
+                "sizeID": "selfport2082-S"
+            },
+            {
+                "letterSize": "M",
+                "sizeID": "selfport2082-M"
+            },
+            {
+                "letterSize": "L",
+                "sizeID": "selfport2082-L"
+            },
+            {
+                "letterSize": "XL",
+                "sizeID": "selfport2082-XL"
+            },
+            {
+                "letterSize": "XXL",
+                "sizeID": "selfport2082-XXL"
+            }
+        ],
+        "artistName": "Salvador Dali",
+        "artistPortrait": "/imgs/daliPortrait.jpg",
+        "artistBio": "Salvador Dali, an emerging iconoclast of surrealism, mesmerizes audiences with his uncanny ability to transform the ordinary into the extraordinary. The Spanish painter's dreamlike landscapes and melting clocks evoke a sense of wonder and intrigue, inviting viewers into the depths of his subconscious. Dali's eccentricity and boundless imagination promise a surreal journey into the unknown realms of artistry."
+    }
+]
