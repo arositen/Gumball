@@ -33,7 +33,7 @@ function App() {
       <ShoppingCartProvider>
         <Navbar isTopOfPage={isTopOfPage} />
         <Routes>
-          <Route path="/Gumball/" element={<Splash />} />
+          <Route path="https://arositen.github.io/Gumball/" element={<Splash />} />
           <Route path="/Gumball/mens" element={<Mens />} />
           <Route path="/Gumball/womens" element={<Womens />} />
           <Route path="/Gumball/upcoming-artist" element={<UpcomingArtist />} />
