@@ -26,7 +26,6 @@ export default {
     content: {
       loudtext: "url(./assets/LoudText.png)",
       wave: "url(./assets/splash-arc.svg)",
-      wPageTitle: "url(./assets/WomensPageTitle.svg)",
       starryNight: "url(./assets/StarryNightTitles.svg)",
     },
     fontFamily: {
