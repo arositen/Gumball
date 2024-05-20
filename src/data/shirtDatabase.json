@@ -2,7 +2,7 @@
     {
         "gender": "mens",
         "name": "Classic",
-        "image": "/imgs/ShirtDesign01.jfif",
+        "image": "./imgs/ShirtDesign01.jfif",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
         "price": 21.99,
         "category": "Long Sleeve",
@@ -38,7 +38,7 @@
     {
         "gender": "mens",
         "name": "Bubble",
-        "image": "/imgs/ShirtDesign02.jfif",
+        "image": "./imgs/ShirtDesign02.jfif",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
         "price": 23.99,
         "category": "Button Up",
@@ -74,7 +74,7 @@
     {
         "gender": "mens",
         "name": "Rainbow",
-        "image": "/imgs/ShirtDesign03.jfif",
+        "image": "./imgs/ShirtDesign03.jfif",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
         "price": 20.99,
         "category": "1/4 Button",
@@ -110,7 +110,7 @@
     {
         "gender": "mens",
         "name": "Soda",
-        "image": "/imgs/ShirtDesign04.jfif",
+        "image": "./imgs/ShirtDesign04.jfif",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
         "price": 30.99,
         "category": "Button Up",
@@ -146,7 +146,7 @@
     {
         "gender": "mens",
         "name": "Band",
-        "image": "/imgs/ShirtDesign05.jfif",
+        "image": "./imgs/ShirtDesign05.jfif",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
         "price": 19.99,
         "category": "T-Shirt",
