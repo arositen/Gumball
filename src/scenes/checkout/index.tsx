@@ -8,7 +8,7 @@ type Props = {}
 function Checkout({ }: Props) {
 
     const { cartItems, removeFromCart, closeCart, cartQuantity, cartSubtotal } = useShoppingCart();
-
+    const basePath = 'Gumball/';
     return (
         <section className='pt-28 min-h-screen w-full'>
             <div className='flex justify-center'>
@@ -30,7 +30,7 @@ function Checkout({ }: Props) {
                                                 <div>
                                                     <div className="flex justify-between text-base font-medium text-gray-900">
                                                         <h3>
-                                                            <Link to={`/details/${item.parentID}`} state={{ from: item, id: item.parentID }} onClick={closeCart}>{item.name}</Link>
+                                                            <Link to={`${basePath}/details/${item.parentID}`} state={{ from: item, id: item.parentID }} onClick={closeCart}>{item.name}</Link>
                                                         </h3>
                                                         <p className="ml-4">{formatCurrency(item.price * item.quantity)}</p>
                                                     </div>

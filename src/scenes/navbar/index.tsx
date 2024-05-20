@@ -22,6 +22,8 @@ function Navbar({ isTopOfPage }: Props) {
 
     const { openCart, cartQuantity } = useShoppingCart()
 
+    const basePath = 'Gumball/';
+
     return (
         <nav className={`${navBackground} fixed flex justify-between w-full z-20 transition-all duration-200`}>
             <div className='flex'>
@@ -29,7 +31,7 @@ function Navbar({ isTopOfPage }: Props) {
                 {isAboveSmallScreens && (
                     <div className="flex justify-center mx-4">
                         <div className={navStyles}>
-                            <Link to='/'><img className='h-12 md:h-16' src={GumballLogo} alt="" /></Link>
+                            <Link to={`${basePath}/`}><img className='h-12 md:h-16' src={GumballLogo} alt="" /></Link>
                         </div>
                     </div>
                 )}
@@ -37,13 +39,13 @@ function Navbar({ isTopOfPage }: Props) {
                 {isAboveSmallScreens ? (
                     <div className="flex justify-center mx-4">
                         <div className={navStyles}>
-                            <Link to='/mens'>Men's</Link>
+                            <Link to={`${basePath}/mens`}>Men's</Link>
                         </div>
                         <div className={navStyles}>
-                            <Link to='/womens'>Women's</Link>
+                            <Link to={`${basePath}/womens`}>Women's</Link>
                         </div>
                         <div className={navStyles}>
-                            <Link to='/upcoming-artist'>Upcoming Artist Series</Link>
+                            <Link to={`${basePath}/upcoming-artist`}>Upcoming Artist Series</Link>
                         </div>
                     </div>) : (
                     <div className="flex justify-center mx-4">
@@ -60,7 +62,7 @@ function Navbar({ isTopOfPage }: Props) {
             {!isAboveSmallScreens && (
                 <div className="flex justify-center mx-4">
                     <div className={navStyles}>
-                        <Link to='/'><img className='h-10' src={GBLogoSmall} alt="" /></Link>
+                        <Link to={`${basePath}/`}><img className='h-10' src={GBLogoSmall} alt="" /></Link>
                     </div>
                 </div>
             )}
@@ -90,9 +92,9 @@ function Navbar({ isTopOfPage }: Props) {
                     </div>
                     {/* MENU ITEMS  */}
                     <div className="mx-5 my-4 mb-10 px-5 flex flex-col gap-10 text-lg">
-                        <Link to='/mens' onClick={() => setIsMenuToggled(!isMenuToggled)}>Men's</Link>
-                        <Link to='/womens' onClick={() => setIsMenuToggled(!isMenuToggled)}>Women's</Link>
-                        <Link to='/upcoming-artist' onClick={() => setIsMenuToggled(!isMenuToggled)}>Upcoming Artist Series</Link>
+                        <Link to={`${basePath}/mens`} onClick={() => setIsMenuToggled(!isMenuToggled)}>Men's</Link>
+                        <Link to={`${basePath}/womens`} onClick={() => setIsMenuToggled(!isMenuToggled)}>Women's</Link>
+                        <Link to={`${basePath}/upcoming-artist`} onClick={() => setIsMenuToggled(!isMenuToggled)}>Upcoming Artist Series</Link>
                     </div>
                 </div>
             )}

@@ -182,7 +182,7 @@
     {
         "gender": "mens",
         "name": "Puzzle",
-        "image": "/imgs/ShirtDesign06.jfif",
+        "image": "./imgs/ShirtDesign06.jfif",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
         "price": 40.99,
         "category": "T-Shirt",
@@ -218,7 +218,7 @@
     {
         "gender": "womens",
         "name": "Classic",
-        "image": "/imgs/WomensShirtDesign02.jfif",
+        "image": "./imgs/WomensShirtDesign02.jfif",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
         "price": 21.99,
         "category": "T-Shirt",
@@ -254,7 +254,7 @@
     {
         "gender": "womens",
         "name": "Gradient",
-        "image": "/imgs/WomensShirtDesign01.jfif",
+        "image": "./imgs/WomensShirtDesign01.jfif",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
         "price": 30.99,
         "category": "Button Up",
@@ -290,7 +290,7 @@
     {
         "gender": "womens",
         "name": "Space",
-        "image": "/imgs/WomensShirtDesign03.jfif",
+        "image": "./imgs/WomensShirtDesign03.jfif",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
         "price": 25.99,
         "category": "T-Shirt",
@@ -326,7 +326,7 @@
     {
         "gender": "womens",
         "name": "Splatter",
-        "image": "/imgs/WomensShirtDesign04.jfif",
+        "image": "./imgs/WomensShirtDesign04.jfif",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
         "price": 25.99,
         "category": "T-Shirt",
@@ -362,7 +362,7 @@
     {
         "gender": "womens",
         "name": "Material",
-        "image": "/imgs/WomensShirtDesign05.jfif",
+        "image": "./imgs/WomensShirtDesign05.jfif",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
         "price": 44.99,
         "category": "Cardigan",
@@ -398,7 +398,7 @@
     {
         "gender": "womens",
         "name": "Dot",
-        "image": "/imgs/WomensShirtDesign06.jfif",
+        "image": "./imgs/WomensShirtDesign06.jfif",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
         "price": 35.99,
         "category": "Button Up",
@@ -434,7 +434,7 @@
     {
         "gender": "special",
         "name": "Starry Night",
-        "image": "/imgs/SpecialShirtVanGogh.jfif",
+        "image": "./imgs/SpecialShirtVanGogh.jfif",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
         "price": 21.99,
         "category": "Long Sleeve",
@@ -467,13 +467,13 @@
             }
         ],
         "artistName": "Vincent Van Gogh",
-        "artistPortrait": "/imgs/VangoghPortrait.jfif",
+        "artistPortrait": "./imgs/VangoghPortrait.jfif",
         "artistBio": "Vincent Van Gogh, a rising star in the art world, is a Dutch painter known for his emotive brushwork and vibrant colors. With a talent for capturing the essence of his subjects, his work pulsates with raw emotion and energy. Van Gogh's bold style and unwavering passion promise an exciting journey ahead in the world of art."
     },
     {
         "gender": "special",
         "name": "Fracture",
-        "image": "/imgs/SpecialShirtPicasso03.jfif",
+        "image": "./imgs/SpecialShirtPicasso03.jfif",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
         "price": 23.99,
         "category": "Long Sleeve",
@@ -506,13 +506,13 @@
             }
         ],
         "artistName": "Pablo Picasso",
-        "artistPortrait": "/imgs/picassoportrait.jfif",
+        "artistPortrait": "./imgs/picassoportrait.jfif",
         "artistBio": "Pablo Picasso, a rising force in the art scene, revolutionizes the canvas with his avant-garde approach and unparalleled creativity. The Spanish maestro's cubist vision deconstructs reality, reshaping perceptions and challenging artistic conventions. With each stroke, Picasso's bold experimentation pushes the boundaries of expression, marking him as a trailblazer in the art world."
     },
     {
         "gender": "special",
         "name": "Self Portrait",
-        "image": "/imgs/SpecialShirtDali.jfif",
+        "image": "./imgs/SpecialShirtDali.jfif",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit nulla!",
         "price": 25.99,
         "category": "Long Sleeve",
@@ -545,7 +545,7 @@
             }
         ],
         "artistName": "Salvador Dali",
-        "artistPortrait": "/imgs/daliPortrait.jpg",
+        "artistPortrait": "./imgs/daliPortrait.jpg",
         "artistBio": "Salvador Dali, an emerging iconoclast of surrealism, mesmerizes audiences with his uncanny ability to transform the ordinary into the extraordinary. The Spanish painter's dreamlike landscapes and melting clocks evoke a sense of wonder and intrigue, inviting viewers into the depths of his subconscious. Dali's eccentricity and boundless imagination promise a surreal journey into the unknown realms of artistry."
     }
 ]
