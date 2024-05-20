@@ -7,8 +7,10 @@ type Props = {}
 
 function Checkout({ }: Props) {
 
+
     const { cartItems, removeFromCart, closeCart, cartQuantity, cartSubtotal } = useShoppingCart();
-    const basePath = 'Gumball/';
+    const imageBase = import.meta.env.BASE_URL;
+
     return (
         <section className='pt-28 min-h-screen w-full'>
             <div className='flex justify-center'>
@@ -23,14 +25,14 @@ function Checkout({ }: Props) {
                                     <ul role="list" className="-my-6 divide-y divide-gray-200">
                                         <li className="flex p-6 mx-2 md:mx-4 my-4 border-2 border-gray-100">
                                             <div className="h-36 w-36 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
-                                                <img src={item.image} className="h-full w-full object-cover object-center" />
+                                                <img src={`${imageBase}${item.image}`} className="h-full w-full object-cover object-center" />
                                             </div>
 
                                             <div className="ml-4 flex flex-1 flex-col">
                                                 <div>
                                                     <div className="flex justify-between text-base font-medium text-gray-900">
                                                         <h3>
-                                                            <Link to={`${basePath}/details/${item.parentID}`} state={{ from: item, id: item.parentID }} onClick={closeCart}>{item.name}</Link>
+                                                            <Link to={`details/${item.parentID}`} state={{ from: item, id: item.parentID }} onClick={closeCart}>{item.name}</Link>
                                                         </h3>
                                                         <p className="ml-4">{formatCurrency(item.price * item.quantity)}</p>
                                                     </div>

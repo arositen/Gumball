@@ -22,7 +22,7 @@ function Navbar({ isTopOfPage }: Props) {
 
     const { openCart, cartQuantity } = useShoppingCart()
 
-    const basePath = 'Gumball/';
+    const basePath = 'Gumball';
 
     return (
         <nav className={`${navBackground} fixed flex justify-between w-full z-20 transition-all duration-200`}>

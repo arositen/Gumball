@@ -12,7 +12,7 @@ function ArtistProductCard({ product }: Props) {
     const greenButtonStyle = ' mx-5 text-sm content-center text-white hover:underline';
     const isAboveSmallScreens = useMediaQuery("(min-width:800px)");
     const isAboveXSmallScreens = useMediaQuery("(min-width:480px)");
-    const basePath = 'Gumball/';
+    const imageBase = import.meta.env.BASE_URL;
 
     return (
         <div className='relative flex justify-between gap-3 xs:w-11/12 md:h-96 mt-5 mx-auto rounded-3xl shadow-xl overflow-hidden'>
@@ -24,9 +24,9 @@ function ArtistProductCard({ product }: Props) {
                 <div className='-skew-x-6 bg-[#e9c46a] h-full w-1/4 -mx-1 p-0'></div>
             </div>
 
-            <Link to={`${basePath}/details/${product.productID}`} state={{ from: product, id: product.productID }}>
+            <Link to={`details/${product.productID}`} state={{ from: product, id: product.productID }}>
                 <div className='flex justify-center items-center h-full'>
-                    <img className='h-full object-cover object-center rounded-xl' src={product.image} alt="" />
+                    <img className='h-full object-cover object-center rounded-xl' src={`${imageBase}${product.image}`} alt="" />
                 </div>
             </Link>
 
@@ -41,7 +41,7 @@ function ArtistProductCard({ product }: Props) {
                     </div>
                     {isAboveXSmallScreens && (
                         <div className='flex flex-col justify-center items-center sm:m-0 m-2 sm:p-0 p-2'>
-                            <img src={product.artistPortrait} className='h-14 w-14 rounded-full m-3' alt="" />
+                            <img src={`${imageBase}${product.artistPortrait}`} className='h-14 w-14 rounded-full m-3' alt="" />
                             <div className='text-sm text-center'>
                                 {product.artistName}
                             </div>
@@ -57,7 +57,7 @@ function ArtistProductCard({ product }: Props) {
                     )}
                 </div>
                 <div className='flex justify-end'>
-                    <Link to={`${basePath}/details/${product.productID}`} state={{ from: product, id: product.productID }}
+                    <Link to={`details/${product.productID}`} state={{ from: product, id: product.productID }}
                         className={greenButtonStyle}>
                         Buy Now
                     </Link>

@@ -13,7 +13,7 @@ import { ShoppingCartProvider } from './context/ShoppingCartContext';
 function App() {
 
   const [isTopOfPage, setIsTopOfPage] = useState<boolean>(true);
-  const basePath = 'Gumball/';
+  const basePath = 'Gumball';
 
   useEffect(() => {
     const handleScroll = () => {
@@ -38,8 +38,8 @@ function App() {
           <Route path={`${basePath}/mens`} element={<Mens />} />
           <Route path={`${basePath}/womens`} element={<Womens />} />
           <Route path={`${basePath}/upcoming-artist`} element={<UpcomingArtist />} />
-          <Route path={`${basePath}/details`} element={<Details />} />
-          <Route path={`${basePath}/details/:id`} element={<Details />} />
+          <Route path={`${basePath}/:section/details`} element={<Details />} />
+          <Route path={`${basePath}/:section/details/:id`} element={<Details />} />
           <Route path={`${basePath}/checkout`} element={<Checkout />} />
         </Routes>
         <Footer />

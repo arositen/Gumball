@@ -18,6 +18,7 @@ function Details() {
     const { id } = location.state;
     const allQtys = [1, 2, 3, 4, 5];
     const thisShirt = shirtData.find(el => el.productID === id)!;
+    const imageBase = import.meta.env.BASE_URL;
 
     let shirtSizes: sizeButton[] = [];
 
@@ -62,7 +63,7 @@ function Details() {
         <section className='pt-28 min-h-screen w-full flex justify-center'>
             <div className="flex flex-col md:flex-row justify-around w-full mb-10 max-w-[1600px]">
                 <div className="md:basis-1/2 flex flex-col items-center justify-start my-5 mx-10">
-                    <img src={thisShirt.image} className=" w-full sm:w-2/3 md:w-full object-contain border-2 border-black shadow-lg" alt="" />
+                    <img src={`${imageBase}${thisShirt.image}`} className=" w-full sm:w-2/3 md:w-full object-contain border-2 border-black shadow-lg" alt="" />
                 </div>
                 <div className='m-5 px-5 md:basis-1/2 bg-white my-5'>
                     <div className='p-2 my-5'>

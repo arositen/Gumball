@@ -6,7 +6,8 @@ function CartSlideOver() {
 
     const { cartItems, isOpen, removeFromCart, closeCart, cartSubtotal } = useShoppingCart();
     let isEmpty = cartItems.length === 0
-    const basePath = 'Gumball/';
+    const basePath = 'Gumball';
+    const imageBase = import.meta.env.BASE_URL;
 
     return (
         <>
@@ -44,20 +45,19 @@ function CartSlideOver() {
 
                                             {/* Products */}
                                             {cartItems.map((item, index) => (
-
                                                 <div key={`${item.id} - ${index}`} className="mt-8">
                                                     <div className="flow-root">
                                                         <ul role="list" className="-my-6 divide-y divide-gray-200">
                                                             <li className="flex py-6">
                                                                 <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
-                                                                    <img src={item.image} className="h-full w-full object-cover object-center" />
+                                                                    <img src={`${imageBase}${item.image}`} className="h-full w-full object-cover object-center" alt={`${item.image}`} />
                                                                 </div>
 
                                                                 <div className="ml-4 flex flex-1 flex-col">
                                                                     <div>
                                                                         <div className="flex justify-between text-base font-medium text-gray-900">
                                                                             <h3>
-                                                                                <Link to={`${basePath}/details/${item.parentID}`} state={{ from: item, id: item.parentID }} onClick={closeCart}>{item.name}</Link>
+                                                                                <Link to={`${basePath}/section/details/${item.parentID}`} state={{ from: item, id: item.parentID }} onClick={closeCart}>{item.name}</Link>
                                                                             </h3>
                                                                             <p className="ml-4">{formatCurrency(item.price * item.quantity)}</p>
                                                                         </div>
@@ -85,7 +85,7 @@ function CartSlideOver() {
                                             </div>
                                             <p className="mt-0.5 text-sm text-gray-500">Shipping and taxes calculated at checkout.</p>
                                             <div className="mt-6">
-                                                <Link to={`${basePath}/checkout/`}>
+                                                <Link to={`${basePath}/checkout`}>
                                                     <button className={`flex ${isEmpty ? 'opacity-50' : 'opacity-100 hover:bg-indigo-700'} w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm`}
                                                         disabled={isEmpty}
                                                         onClick={closeCart}>

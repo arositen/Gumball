@@ -15,7 +15,6 @@ function Splash({ }: Props) {
     const buttonStyles = 'bg-gbPink-500 mx-auto px-6 py-2 rounded-full text-white text-md font-medium hover:bg-gbPink-300';
     const greenButtonStyle = 'bg-gbGreen-500 text-center p-3 mx-auto my-3 w-44 text-white font-medium hover:bg-gbGreen-300';
     const isAboveMediumScreens = useMediaQuery("(min-width:1060px)");
-    const basePath = 'Gumball/';
 
     return (
         <>
@@ -57,7 +56,7 @@ function Splash({ }: Props) {
                         </div>
                         <div className='absolute flex flex-col justify-center text-center top-0 h-full w-2/3 opacity-0 group-hover:w-5/6 group-hover:opacity-100 transition-all ease-in-out duration-300'>
                             <div className="text-white text-3xl my-8">Men's Collection</div>
-                            <Link to={`${basePath}/mens`} className={buttonStyles}>See More</Link>
+                            <Link to={`mens`} className={buttonStyles}>See More</Link>
                         </div>
                     </div>
 
@@ -67,7 +66,7 @@ function Splash({ }: Props) {
                         </div>
                         <div className='absolute flex flex-col justify-center text-center top-0 h-full w-2/3 opacity-0 group-hover:w-5/6 group-hover:opacity-100 transition-all ease-in-out duration-300'>
                             <div className="text-white text-3xl my-8">Women's Collection</div>
-                            <Link to={`${basePath}/womens`} className={buttonStyles}>See More</Link>
+                            <Link to={`womens`} className={buttonStyles}>See More</Link>
                         </div>
                     </div>
 
@@ -77,7 +76,7 @@ function Splash({ }: Props) {
                         </div>
                         <div className='absolute flex flex-col justify-center text-center top-0 h-full w-2/3 opacity-0 group-hover:w-5/6 group-hover:opacity-100 transition-all ease-in-out duration-300'>
                             <div className="text-white text-3xl my-8">Upcoming Artist Collection</div>
-                            <Link to={`${basePath}/upcoming-artist`} className={buttonStyles}>See More</Link>
+                            <Link to={`upcoming-artist`} className={buttonStyles}>See More</Link>
                         </div>
                     </div>
 
