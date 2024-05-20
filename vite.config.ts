@@ -5,8 +5,8 @@ import path from 'path';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/Gumball/#',
+  base: '/Gumball/',
   resolve: {
-    alias: [{ find: "@", replacement: path.resolve(__dirname, "/Gumball/#/src") }]
+    alias: [{ find: "@", replacement: path.resolve(__dirname, "src") }]
   }
 })
