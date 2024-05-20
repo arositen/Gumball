@@ -7,6 +7,6 @@ export default defineConfig({
   plugins: [react()],
   base: '/Gumball/#',
   resolve: {
-    alias: [{ find: "@", replacement: path.resolve(__dirname, "src") }]
+    alias: [{ find: "@", replacement: path.resolve(__dirname, "/Gumball/#/src") }]
   }
 })
