@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, Navigate } from 'react-router-dom';
 import { useState, useEffect } from "react";
 import Navbar from '@/scenes/navbar';
 import Splash from '@/scenes/splash';
@@ -41,6 +41,8 @@ function App() {
           <Route path={`${basePath}/:section/details`} element={<Details />} />
           <Route path={`${basePath}/:section/details/:id`} element={<Details />} />
           <Route path={`${basePath}/checkout`} element={<Checkout />} />
+          {/* default redirect to home page */}
+          <Route path="*" element={<Navigate to={`${basePath}/`} />} />
         </Routes>
         <Footer />
       </ShoppingCartProvider>
