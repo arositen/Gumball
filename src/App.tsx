@@ -41,6 +41,7 @@ function App() {
           <Route path={`${basePath}/:section/details`} element={<Details />} />
           <Route path={`${basePath}/:section/details/:id`} element={<Details />} />
           <Route path={`${basePath}/checkout`} element={<Checkout />} />
+          <Route path={`${basePath}/*`} element={<Splash />} />
         </Routes>
         <Footer />
       </ShoppingCartProvider>
