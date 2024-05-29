@@ -42,7 +42,7 @@ function App() {
           <Route path={`${basePath}/:section/details/:id`} element={<Details />} />
           <Route path={`${basePath}/checkout`} element={<Checkout />} />
           {/* default redirect to home page */}
-          <Route path="*" element={<Navigate to={`${basePath}/`} />} />
+          <Route path={`${basePath}/*`} element={<Navigate to={`${basePath}/`} />} />
         </Routes>
         <Footer />
       </ShoppingCartProvider>
